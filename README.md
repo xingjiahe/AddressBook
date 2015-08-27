@@ -76,7 +76,6 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"联系人字典:%@",dic);
 
-#if 1
         //D组升序排列
         for (id obj in dic)
         {
@@ -137,7 +136,7 @@ int main(int argc, const char * argv[]) {
         }
 
         NSLog(@"删除B组联系人后:%@",dic);
-#endif
+
         
     }
     return 0;
